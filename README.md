@@ -1,7 +1,5 @@
 # Hospital Readmission & Diabetes Care Quality Dashboard
 
-[Bahasa Indonesia](README.id.md) · **English**
-
 A monitoring dashboard for the quality of inpatient diabetes care: how large the **30-day readmission rate** is, and which patient groups, specialties, and discharge pathways it is concentrated in.
 
 ![Dashboard preview](docs/images/dashboard_preview.png)
@@ -10,11 +8,8 @@ A monitoring dashboard for the quality of inpatient diabetes care: how large the
 
 |                                  |                                                                                                                                                                                                           |
 | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Interactive dashboard (16:9)** | https://app.powerbi.com/groups/me/reports/cdb10212-907d-4ca6-bc72-5d907ea2ed48/d6e66cc0c60110b99211?experience=power-bi                                                                                   |
-| **Full-length dashboard**        | https://USERNAME.github.io/REPO-NAME/dashboard/hospital_readmission_dashboard.html                                                                                                                        |
+| **Interactive dashboard** | https://app.powerbi.com/groups/me/reports/cdb10212-907d-4ca6-bc72-5d907ea2ed48/d6e66cc0c60110b99211?experience=power-bi                                                                                   |
 | **Dataset**                      | [`data/diabetes_130_hospitals.xlsx`](data/diabetes_130_hospitals.xlsx) · original source: [UCI ML Repository #296](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008) |
-
-> Replace `USERNAME` and `REPO-NAME` with your GitHub account and repository name once GitHub Pages is enabled.
 
 The filters (age, specialty, discharge disposition, gender, HbA1c test, diabetes medication) apply to every KPI and chart. Note that the dashboard interface text is in Indonesian.
 
@@ -169,11 +164,7 @@ The dashboards in this repo are HTML/JavaScript prototypes containing aggregated
 ## Repository Structure
 
 ```
-├── README.md                        # English
-├── index.html                       # redirect to the dashboard (for GitHub Pages)
-├── dashboard/
-│   ├── hospital_readmission_dashboard_16x9.html
-│   └── hospital_readmission_dashboard.html
+├── README.md                       
 ├── data/
 │   └── diabetes_130_hospitals.xlsx
 └── docs/images/dashboard_preview.png
